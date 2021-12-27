@@ -35,6 +35,21 @@ const questions = [
       }
     }
   },
+  // Project installation instructions
+  {
+    type: 'input',
+    name: 'installation',
+    message: 'Specify the projects installation procedure (Required)',
+    validate: projectInstall =>  {
+      if (projectInstall) {
+        return true;
+      }
+      else {
+        console.log('Installation instructions are required to continue!');
+        return false;
+      }
+    }
+  },
 ];
 
 // TODO: Create a function to write README file
