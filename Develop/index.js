@@ -5,7 +5,8 @@ const inquirer = require('inquirer');
 
 // User Input questionaire
 const questions = [
-  // Prooject name
+
+  // Project name
   {
     type: 'input',
     name: 'title',
@@ -20,6 +21,7 @@ const questions = [
       }
     }
   },
+
   // Project description
   {
     type: 'input',
@@ -35,6 +37,7 @@ const questions = [
       }
     }
   },
+
   // Project installation instructions
   {
     type: 'input',
@@ -46,6 +49,22 @@ const questions = [
       }
       else {
         console.log('Installation instructions are required to continue!');
+        return false;
+      }
+    }
+  },
+
+  // Project usage guidelines
+  {
+    type: 'input',
+    name: 'guidelines',
+    message: 'Specify the projects usage guidelines (Required)',
+    validate: projectGuidelines =>  {
+      if (projectGuidelines) {
+        return true;
+      }
+      else {
+        console.log('Usage guidelines are required to continue!');
         return false;
       }
     }
