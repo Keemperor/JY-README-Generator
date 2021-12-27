@@ -1,9 +1,11 @@
-// TODO: Include packages needed for this application
+// Global package requirements
 const fs = require('fs');
 const markdowns = require('./utils/generateMarkdown.js');
 const inquirer = require('inquirer');
-// TODO: Create an array of questions for user input
+
+// User Input questionaire
 const questions = [
+  // Prooject name
   {
     type: 'input',
     name: 'title',
@@ -14,6 +16,21 @@ const questions = [
       }
       else {
         console.log('A project name is required to continue!');
+        return false;
+      }
+    }
+  },
+  // Project description
+  {
+    type: 'input',
+    name: 'description',
+    message: 'Please describe the project! (Required)',
+    validate: projectDescription =>  {
+      if (projectDescription) {
+        return true;
+      }
+      else {
+        console.log('A project description is required to continue!');
         return false;
       }
     }
