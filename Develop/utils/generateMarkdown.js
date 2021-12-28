@@ -14,7 +14,40 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-`;
+  ## Licensing:
+  [![license](https://img.shields.io/badge/license-${data.license}-blue)](https://shields.io)
+
+  ## Table of Contents 
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#guidelines)
+  - [Contribution](#contribution)
+  - [Testing](#testing)
+  - [Additional Info](#additional-info)
+
+  ## Description:
+  ${data.description}
+
+  ## Installation:
+  ${data.installation}
+
+  ## Usage:
+  ${data.guidelines}
+
+  ## License:
+  ${data.license}
+
+  ## Contribution:
+  ${data.contribution}
+
+  ## Testing:
+  ${data.testing}
+
+  ## Additional Info:
+  - Github: [${data.GitHub}](https://github.com/${data.GitHub})
+
+  - Email: ${data.email} `;
+
 }
 
 module.exports = generateMarkdown;

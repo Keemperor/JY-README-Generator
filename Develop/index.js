@@ -73,14 +73,14 @@ const questions = [
   // Project contribution guidelines
   {
     type: 'input',
-    name: 'guidelines',
-    message: 'Specify the projects usage guidelines (Required)',
-    validate: projectGuidelines =>  {
-      if (projectGuidelines) {
+    name: 'contribution',
+    message: 'Specify the projects contribution guidelines (Required)',
+    validate: projectContribution =>  {
+      if (projectContribution) {
         return true;
       }
       else {
-        console.log('Usage guidelines are required to continue!');
+        console.log('Contribution guidelines are required to continue!');
         return false;
       }
     }
