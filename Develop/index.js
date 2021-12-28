@@ -69,6 +69,55 @@ const questions = [
       }
     }
   },
+
+  // Project contribution guidelines
+  {
+    type: 'input',
+    name: 'guidelines',
+    message: 'Specify the projects usage guidelines (Required)',
+    validate: projectGuidelines =>  {
+      if (projectGuidelines) {
+        return true;
+      }
+      else {
+        console.log('Usage guidelines are required to continue!');
+        return false;
+      }
+    }
+  },
+
+  // Project testing guidelines
+  {
+    type: 'input',
+    name: 'testing',
+    message: 'Specify the projects testing instructions (Required)',
+    validate: projectTesting =>  {
+      if (projectTesting) {
+        return true;
+      }
+      else {
+        console.log('Testing Instructions are required to continue!');
+        return false;
+      }
+    }
+  },
+
+  // License options
+  {
+    type: 'checkbox',
+    name: 'license',
+    message: 'Select a license for the project (Required)',
+    choices: ['Apache', 'MIT', 'Mozilla-Public', 'GNU-General-Public', 'Common-Development-and Distribution', 'None'],
+    validate: projectLicense =>  {
+      if (projectLicense) {
+        return true;
+      }
+      else {
+        console.log('Selecting a license required to continue!');
+        return false;
+      }
+    }
+  },
 ];
 
 // TODO: Create a function to write README file
