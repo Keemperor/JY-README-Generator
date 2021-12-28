@@ -1,6 +1,6 @@
 // Global package requirements
 const fs = require('fs');
-const markdowns = require('./utils/generateMarkdown.js');
+const markdowns = require('./Develop/utils/generateMarkdown.js');
 const inquirer = require('inquirer');
 
 // User Input questionaire
@@ -105,7 +105,7 @@ const questions = [
   // License options
   {
     type: 'checkbox',
-    name: 'license',
+    name: 'licensing',
     message: 'Select a license for the project (Required)',
     choices: ['Apache', 'MIT', 'Mozilla-Public', 'GNU-General-Public', 'Common-Development-and Distribution', 'None'],
     validate: projectLicense =>  {
