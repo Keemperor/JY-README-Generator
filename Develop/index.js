@@ -118,6 +118,29 @@ const questions = [
       }
     }
   },
+
+  // GitHub  username
+  {
+    type: 'input',
+    name: 'GitHub',
+    message: 'Please provide your GitHub username (Required)',
+    validate: projectGithub =>  {
+      if (projectGithub) {
+        return true;
+      }
+      else {
+        console.log('A GitHub username is required to continue!');
+        return false;
+      }
+    }
+  },
+
+    // Email Address
+    {
+      type: 'input',
+      name: 'email',
+      message: 'Would you like to include your email?',
+  },
 ];
 
 // TODO: Create a function to write README file
