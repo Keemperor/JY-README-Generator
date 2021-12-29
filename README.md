@@ -21,7 +21,7 @@
   ## Usage:
   To use this project simply answer the questions and the generator will output  the necessary answers, here is a video:
 
-  ![Alt Text](../Develop/Hnet-image.gif)
+  ![Video Gif Preview](https://github.com/Keemperor/JY-Readme-Generator/blob/main/Develop/Hnet-image.gif)
 
   https://drive.google.com/file/d/1QWIwHJPrIUBqlc0_ZnFjkKacX71YxzZn/view?usp=sharing
 
