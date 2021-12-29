@@ -16,9 +16,14 @@
 
   ## Installation:
   1) Clone Repository
+  2) Install NPM Inquirer
 
   ## Usage:
-  To use this project simply answer the questions and the generator will output  the necessary answers
+  To use this project simply answer the questions and the generator will output  the necessary answers, here is a video:
+
+  ![Alt Text](../Develop/Hnet-image.gif)
+
+  https://drive.google.com/file/d/1QWIwHJPrIUBqlc0_ZnFjkKacX71YxzZn/view?usp=sharing
 
   ## License:
   MIT

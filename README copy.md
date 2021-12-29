@@ -16,6 +16,7 @@
 
   ## Installation:
   1) Clone Repository
+  2) Install NPM Inquirer
 
   ## Usage:
   To use this project simply answer the questions and the generator will output  the necessary answers

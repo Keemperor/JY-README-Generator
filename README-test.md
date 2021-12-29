@@ -1,7 +1,7 @@
 # Run-Buddy
 
   ## Licensing:
-  [![license](https://img.shields.io/badge/license-None-blue)](https://shields.io)
+  [![license](https://img.shields.io/badge/license-Common_Development_and_Distribution-blue)](https://shields.io)
 
   ## Table of Contents 
   - [Description](#description)
@@ -12,16 +12,16 @@
   - [Additional Info](#additional-info)
 
   ## Description:
-  A website for gym enthusiasts to get in contact with their trainers
+  A gym training website
 
   ## Installation:
-  none
+  bisit run-buddy.com
 
   ## Usage:
-  none
+  follow website requests
 
   ## License:
-  None
+  Common_Development_and_Distribution
 
   ## Contribution:
   none
