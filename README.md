@@ -23,6 +23,7 @@
 
   ![Video Gif Preview](https://github.com/Keemperor/JY-Readme-Generator/blob/main/Develop/Hnet-image.gif)
 
+  Video Link:
   https://drive.google.com/file/d/1QWIwHJPrIUBqlc0_ZnFjkKacX71YxzZn/view?usp=sharing
 
   ## License:
