@@ -1,7 +1,7 @@
 # a
 
   ## Licensing:
-  [![license](https://img.shields.io/badge/license-GNU-General-Public-blue)](https://shields.io)
+  [![license](https://img.shields.io/badge/license-GNU_General_Public-blue)](https://shields.io)
 
   ## Table of Contents 
   - [Description](#description)
@@ -21,7 +21,7 @@
   a
 
   ## License:
-  GNU-General-Public
+  GNU_General_Public
 
   ## Contribution:
   a
@@ -32,4 +32,4 @@
   ## Additional Info:
   - Github: [a](https://github.com/a)
 
-  - Email:  
+  - Email: a 
